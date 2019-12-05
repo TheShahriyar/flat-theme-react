@@ -912,8 +912,8 @@ form.search-form button {
 }
 .faq .single-item {
   background-color: #fff;
-  padding: 20px;
-  padding-left: 50px;
+  /* padding: 20px;
+  padding-left: 50px; */
   line-height: 28px;
   font-weight: 700;
   margin-bottom: 10px;
@@ -921,7 +921,7 @@ form.search-form button {
   border-radius: 4px;
   position: relative;
 }
-.faq .single-item::after {
+/* .faq .single-item::after {
   content: "+";
   width: 25px;
   height: 25px;
@@ -934,7 +934,7 @@ form.search-form button {
   text-align: center;
   line-height: 25px;
   font-size: 20px;
-}
+} */
 .faq .single-item.active::after {
   content: "-";
   background-color: #fff;
@@ -955,6 +955,20 @@ form.search-form button {
   font-size: 14px;
   font-weight: 400;
   display: none;
+}
+
+.faq .accordion__button {
+  background: transparent;
+}
+.faq .accordion__button:hover,
+.faq .accordion__button:focus {
+  background: transparent;
+  outline: 0;
+}
+
+.faq .accordion__panel {
+  padding: 0 40px 10px;
+  transition: all 0.4s;
 }
 
 .single-faq {

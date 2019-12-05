@@ -3,6 +3,8 @@ import RecentPostImg1 from "../images/recent1.jpg"
 import RecentPostImg2 from "../images/recent2.jpg"
 import RecentPostImg3 from "../images/recent3.jpg"
 
+import { FaPaperPlane } from "react-icons/fa"
+
 const FooterSection = () => {
   return (
     <>
@@ -121,7 +123,7 @@ const FooterSection = () => {
                   <form action="#" className="nw_form">
                     <input placeholder="Enter your email" type="email" />
                     <button>
-                      <i className="fa fa-paper-plane"></i>
+                      <FaPaperPlane />
                     </button>
                   </form>
                 </div>
@@ -134,7 +136,7 @@ const FooterSection = () => {
             <div className="row">
               <div className="col-lg-6">
                 <div className="copyright-txt">
-                  © 2017 Flat Pro. All Rights Reserved.
+                  © {new Date().getFullYear()} Flat Pro. All Rights Reserved.
                 </div>
               </div>
               <div className="col-lg-6 text-right">
