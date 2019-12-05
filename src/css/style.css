@@ -532,6 +532,9 @@ form.search-form button {
 /*****************************
  *   02. hero-area
  ***************************** */
+.hero-slider {
+  position: relative;
+}
 .hero-slider .single-slide {
   height: 715px;
   background-size: cover;

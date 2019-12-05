@@ -19,34 +19,55 @@ const Slideshow = () => {
   return (
     <div className="hero-slider">
       <Slide {...properties}>
-        <div className="each-slide">
+        <div className="each-slide single-slide">
           <div style={{ backgroundImage: `url(${slider1})` }}>
             <div className="container">
               <div className="row">
-                <div className="col-md-12">
-                  <span>Slide 1</span>
+                <div className="col-lg-6">
+                  <div className="slide-content">
+                    <h2 className="animated1">
+                      We Are Digital Product Design Agency.
+                    </h2>
+                    <p className="animated2">
+                      Pellentesque habitant morbi tristique senectus et netus et
+                      malesuada fames ac turpis egestas.
+                    </p>
+                    <div className="slide-btn animated3">
+                      <a href="#" className="button mr-3">
+                        Learn More
+                      </a>
+                      <a href="#" className="button-2">
+                        Live Preview
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="each-slide">
+        <div className="each-slide single-slide">
           <div style={{ backgroundImage: `url(${slider2})` }}>
             <div className="container">
               <div className="row">
-                <div className="col-md-12">
-                  <span>Slide 2</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="each-slide">
-          <div style={{ backgroundImage: `url(${slider3})` }}>
-            <div className="container">
-              <div className="row">
-                <div className="col-md-12">
-                  <span>Slide 3</span>
+                <div className="col-lg-12 text-center">
+                  <div className="slide-content">
+                    <h2 className="animated1">
+                      We Are Digital Product Design Agency.
+                    </h2>
+                    <p className="animated2">
+                      Pellentesque habitant morbi tristique senectus et netus et
+                      malesuada fames ac turpis egestas.
+                    </p>
+                    <div className="slide-btn animated3">
+                      <a href="#" className="button mr-3">
+                        Learn More
+                      </a>
+                      <a href="#" className="button-2">
+                        Live Preview
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
