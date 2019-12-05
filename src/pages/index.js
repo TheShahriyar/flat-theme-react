@@ -10,6 +10,7 @@ import Partner from "../components/Partner"
 import ServiceSection from "../components/ServiceSection"
 import PortfolioSection from "../components/PortfolioSection"
 import TestimonialSection from "../components/TestimonialSection"
+import FaqSection from "../components/FaqSection"
 
 export default () => (
   <>
@@ -18,7 +19,8 @@ export default () => (
       <Partner />
       <ServiceSection bgColor="#f3f6fa" />
       <PortfolioSection />
-      <TestimonialSection />
+      <TestimonialSection bgColor="#4698ff" />
+      <FaqSection />
     </Layout>
   </>
 )

@@ -3,7 +3,7 @@ import Slider from "react-slick"
 import SectionTitle from "./SectionTitle"
 import clientImg from "../images/client.jpg"
 
-const TestimonialSection = () => {
+const TestimonialSection = ({ bgColor }) => {
   const settings = {
     dots: false,
     infinite: true,
@@ -13,7 +13,10 @@ const TestimonialSection = () => {
   }
   return (
     <>
-      <div className="testimonial-area sp bg1">
+      <div
+        className="testimonial-area sp"
+        style={{ backgroundColor: `${bgColor}` }}
+      >
         <div className="container">
           <SectionTitle
             white="true"
